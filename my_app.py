@@ -8,7 +8,7 @@ import os
 
 app = Flask(__name__)
 
-# Database initialization
+# DB initialization
 def init_db():
     conn = sqlite3.connect('users.db')
     cursor = conn.cursor()
